@@ -21,7 +21,6 @@ class StepTrackerTest {
 
     @Test
     void averageStepsNoDays() {
-
         assertEquals(0.0,stepTracker.averageSteps());
 
     }
